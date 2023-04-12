@@ -102,7 +102,7 @@ const Home: NextPage = () => {
                   Agent
                 </span>
                 <span className="text-4xl font-bold text-white xs:text-5xl sm:text-6xl">
-                  GPT
+                  Orange
                 </span>
                 <PopIn delay={0.5}>
                   <Badge>Beta v0.1.0</Badge>
