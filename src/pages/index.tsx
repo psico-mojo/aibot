@@ -102,7 +102,7 @@ const Home: NextPage = () => {
                   Agent
                 </span>
                 <span className="text-4xl font-bold text-white xs:text-5xl sm:text-6xl">
-                  GPT
+                  Orange...
                 </span>
                 <PopIn delay={0.5}>
                   <Badge>Beta v0.1.0</Badge>
@@ -140,7 +140,7 @@ const Home: NextPage = () => {
                 value={name}
                 disabled={agent != null}
                 onChange={(e) => setName(e.target.value)}
-                placeholder="AgentGPT"
+                placeholder="Agent Orange...What shall we do ?"
               />
 
               <Input
@@ -153,7 +153,7 @@ const Home: NextPage = () => {
                 disabled={agent != null}
                 value={goalInput}
                 onChange={(e) => setGoalInput(e.target.value)}
-                placeholder="Make the world a better place."
+                placeholder="write your task , e.t.c here..."
               />
             </div>
 
